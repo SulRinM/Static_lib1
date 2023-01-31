@@ -13,9 +13,10 @@
 int main()
 {
     Greeter Gr;
+    std::string Name;
     std::cout << "Enter a name: ";
-    std::cout << "Hello, " << Gr.greet() << "!" <<  '\n';
-
+    std::cin >> Name;
+    std::cout << Gr.greet(Name);
     return 0;
 }
 

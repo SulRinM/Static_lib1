@@ -5,7 +5,5 @@
 class Greeter
 {
 public:
-	std::string greet();
-protected:
-	std::string name;
+	std::string greet(std::string name);
 };

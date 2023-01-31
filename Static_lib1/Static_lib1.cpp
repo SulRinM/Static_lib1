@@ -1,7 +1,6 @@
 #include "Static_lib1.h"
 
-std::string Greeter::greet()
+std::string Greeter::greet(std::string name)
 {
-	std::cin >> name;
-	return name;
+	return "Hello, " + name + "!";
 }
